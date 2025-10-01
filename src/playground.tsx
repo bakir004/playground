@@ -1,7 +1,12 @@
 export const Playground = () => {
-  return <div>
-    <button style={{ backgroundColor: 'blue', color: 'white', border: 'none', padding: '8px 16px', cursor: 'pointer' }}>
-      Blue Button
-    </button>
-  </div>
+  return (
+    <div>
+      <button style={{ backgroundColor: 'blue', color: 'white', marginRight: 8 }}>
+        Blue Button
+      </button>
+      <button style={{ backgroundColor: 'red', color: 'white' }}>
+        Red Button
+      </button>
+    </div>
+  )
 }
